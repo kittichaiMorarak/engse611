@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB7 - DOM Challenges</title>
+    <link rel="stylesheet" href="Te.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <img src="aa.jpg" alt="JavaScript DOM Challenges" class="header-img">
+            <div class="header-details">
+                <h1>LAB7</h1>
+                <h2>JavaScript DOM Manipulation Challenges</h2>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><img src="ee.jpg" alt="Profile Image" class="profile-img" id="zoom-img"></li>
+                    <li>กิตติชัย โมรารักษ์</li>
+                    <li>Student ID: 67543210012-0</li>
+                    <li>Sec 2</li>
+                    <li>Modern Web Technology Development</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section class="content">
+            <table>
+                <tr>
+                    <th>Exercise</th>
+                    <th>Title</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Exercise 1: Changing Text Content</td>
+                    <td><button class="show-btn" data-exercise="1">Show me</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Exercise 2: Modifying CSS Styles</td>
+                    <td><button class="show-btn" data-exercise="2">Show me</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Exercise 3: Adding and Removing Classes</td>
+                    <td><button class="show-btn" data-exercise="3">Show me</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Exercise 4: Creating and Appending Elements</td>
+                    <td><button class="show-btn" data-exercise="4">Show me</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Exercise 5: Removing Elements</td>
+                    <td><button class="show-btn" data-exercise="5">Show me</button></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Exercise 6: Handling Events</td>
+                    <td><button class="show-btn" data-exercise="6">Show me</button></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Exercise 7: Traversing the DOM</td>
+                    <td><button class="show-btn" data-exercise="7">Show me</button></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Exercise 8: Manipulating Form Elements</td>
+                    <td><button class="show-btn" data-exercise="8">Show me</button></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Exercise 9: Fetching and Displaying Data</td>
+                    <td><button class="show-btn" data-exercise="9">Show me</button></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Exercise 10: Animations and Transitions</td>
+                    <td><button class="show-btn" data-exercise="10">Show me</button></td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal-container">
+        <span class="close-btn">&times;</span>
+        <img id="modalImg" class="modal-img">
+    </div>
+
+    <script src="Te.js"></script>
+</body>
+</html>
